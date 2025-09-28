@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-<!-- Mirrored from themewagon.github.io/gp/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Sep 2025 20:14:18 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - Gp Bootstrap Template</title>
+  <title>Phoenix Tech Solutions</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -29,15 +27,90 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-pap4pZC5N6rT5eX+6IXOgHhsC9dFZJ8eI+4gW4Y3X5ZFAOj2gHCcG5wC5xqPQG0e0bXQp0h0W7y2E5C6w8Tn1g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
 
-  <!-- =======================================================
-  * Template Name: Gp
-  * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
-  * Updated: Aug 15 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
+<style>
+/* Tech Item Base */
+.tech-item i {
+  transition: transform 0.3s, color 0.3s;
+}
+
+/* Hover Effect */
+.tech-item:hover i {
+  transform: scale(1.3);
+}
+
+/* Color Coding */
+.frontend i { color: #e34f26; }       /* HTML5 - Orange */
+.frontend p { color: #e34f26; }
+
+.backend i { color: #306998; }        /* Python - Blue */
+.backend p { color: #306998; }
+
+.database i { color: #f29111; }       /* Database - Orange */
+.database p { color: #f29111; }
+
+.cloud i { color: #0078d4; }          /* Azure - Blue */
+.cloud p { color: #0078d4; }
+
+.automation i { color: #6f42c1; }     /* Automation - Purple */
+.automation p { color: #6f42c1; }
+
+.ai i { color: #ff6f61; }             /* AI/ML - Coral Red */
+.ai p { color: #ff6f61; }
+
+.mobile i { color: #3ddc84; }         /* Mobile - Green */
+.mobile p { color: #3ddc84; }
+
+.devops i { color: #0db7ed; }         /* DevOps - Sky Blue */
+.devops p { color: #0db7ed; }
+
+/* Text Styling */
+.tech-item p {
+  margin-top: 0.5rem;
+  font-weight: 600;
+}
+</style>
+
+<!-- Custom CSS -->
+<style>
+  .btn-hero {
+    padding: 12px 28px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+
+  .btn-primary-hero {
+    background: transparent; /* Accent color */
+    border: 2px solid #fff;
+    color: #fff;
+  }
+
+  .btn-primary-hero:hover {
+    background: #e65c00;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 102, 0, 0.4);
+  }
+
+  .btn-outline-hero {
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+  }
+
+  .btn-outline-hero:hover {
+    background: #fff;
+    color: #222;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
+  }
+</style>
 
 <body class="index-page">
 
@@ -47,7 +120,7 @@
       <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">GP</h1>
+        <h1 class="sitename">PHOENIX</h1>
         <span>.</span>
       </a>
 
@@ -89,301 +162,184 @@
 
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
-
       <img src="assets/img/hero-bg.jpg" alt="" data-aos="fade-in">
-
       <div class="container">
-
         <div class="row justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-xl-6 col-lg-8">
-            <h2>Powerful Digital Solutions With GP<span>.</span></h2>
-            <p>We are team of talented digital marketers</p>
-          </div>
-        </div>
-
-        <div class="row gy-4 mt-5 justify-content-center" data-aos="fade-up" data-aos-delay="200">
-          <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon-box">
-              <i class="bi bi-binoculars"></i>
-              <h3><a href="#">Lorem Ipsum</a></h3>
-            </div>
-          </div>
-          <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon-box">
-              <i class="bi bi-bullseye"></i>
-              <h3><a href="#">Dolor Sitema</a></h3>
-            </div>
-          </div>
-          <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="500">
-            <div class="icon-box">
-              <i class="bi bi-fullscreen-exit"></i>
-              <h3><a href="#">Sedare Perspiciatis</a></h3>
-            </div>
-          </div>
-          <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="600">
-            <div class="icon-box">
-              <i class="bi bi-card-list"></i>
-              <h3><a href="#">Magni Dolores</a></h3>
-            </div>
-          </div>
-          <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="700">
-            <div class="icon-box">
-              <i class="bi bi-gem"></i>
-              <h3><a href="#">Nemos Enimade</a></h3>
+          <div class="col-xl-8 col-lg-10">
+            <h2>Transforming Industrial Processes Through Digital Innovation</h2>
+            <p>We help logistics, supply chain, manufacturing, catering, and institutions adopt smart digital solutions to simplify and optimize daily operations.</p>
+            <div class="d-flex justify-content-center gap-3 mt-3">
+              <button onclick="location.href='#services'" class="btn-hero btn-primary-hero">Explore Solutions</button>
+              <button onclick="location.href='#contact'" class="btn-hero btn-outline-hero">Request a Demo</button>
             </div>
           </div>
         </div>
-
       </div>
-
     </section><!-- /Hero Section -->
 
     <!-- About Section -->
     <section id="about" class="about section">
-
       <div class="container" data-aos="fade-up" data-aos-delay="100">
-
         <div class="row gy-4">
           <div class="col-lg-6 order-1 order-lg-2">
             <img src="assets/img/about.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 order-2 order-lg-1 content">
-            <h3>Voluptatem dignissimos provident</h3>
+            <h3>Who We Are</h3>
             <p class="fst-italic">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-              magna aliqua.
+              Phoenix Tech Solutions is a digital transformation company delivering scalable, customized solutions for core industrial and business processes.
             </p>
             <ul>
-              <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</span></li>
-              <li><i class="bi bi-check2-all"></i> <span>Duis aute irure dolor in reprehenderit in voluptate velit.</span></li>
-              <li><i class="bi bi-check2-all"></i> <span>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>End-to-end automation for logistics, supply chain, and manufacturing sectors.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Modern ERP-style modules for invoicing, payroll, employee and customer management.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>AI-powered integrations and Excel-to-website interfaces to connect legacy systems with modern platforms.</span></li>
             </ul>
             <p>
-              Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident
+              Our mission is to simplify industrial workflows, reduce operational costs, and empower businesses with the right digital tools to stay competitive in the modern economy.
             </p>
           </div>
         </div>
-
       </div>
+    </section>
+    <!-- /About Section -->
 
-    </section><!-- /About Section -->
-
-    <!-- Clients Section -->
-    <section id="clients" class="clients section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              },
-              "breakpoints": {
-                "320": {
-                  "slidesPerView": 2,
-                  "spaceBetween": 40
-                },
-                "480": {
-                  "slidesPerView": 3,
-                  "spaceBetween": 60
-                },
-                "640": {
-                  "slidesPerView": 4,
-                  "spaceBetween": 80
-                },
-                "992": {
-                  "slidesPerView": 6,
-                  "spaceBetween": 120
-                }
-              }
-            }
-          </script>
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-
-    </section><!-- /Clients Section -->
 
     <!-- Features Section -->
-    <section id="features" class="features section">
+    <section id="features" class="features section py-5">
 
       <div class="container">
 
-        <div class="row gy-4">
-          <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100"><img src="assets/img/features-bg.jpg" alt=""></div>
+        <!-- Section Header -->
+        <div class="section-header text-center mb-5" data-aos="fade-up">
+          <h2 class="fw-bold">Our Key Features</h2>
+          <p class="text-muted">Empowering industries with innovative solutions to streamline processes, optimize performance, and drive growth.</p>
+        </div>
+
+        <div class="row gy-4 align-items-center">
+          
+          <!-- Image -->
+          <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/img/features-bg.jpg" class="img-fluid rounded" alt="Features Illustration">
+          </div>
+
+          <!-- Features List -->
           <div class="col-lg-6">
 
+            <!-- Feature 1 -->
             <div class="features-item d-flex ps-0 ps-lg-3 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="200">
-              <i class="bi bi-archive flex-shrink-0"></i>
-              <div>
-                <h4>Est labore ad</h4>
-                <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+              <i class="bi bi-speedometer2 flex-shrink-0 text-primary"></i>
+              <div class="ps-3">
+                <h4>Optimized Performance</h4>
+                <p>Leverage cutting-edge technologies to streamline your industrial processes for maximum efficiency.</p>
               </div>
-            </div><!-- End Features Item-->
+            </div>
 
-            <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-basket flex-shrink-0"></i>
-              <div>
-                <h4>Harum esse qui</h4>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+            <!-- Feature 2 -->
+            <div class="features-item d-flex mt-4 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-cloud-arrow-up flex-shrink-0 text-primary"></i>
+              <div class="ps-3">
+                <h4>Cloud Integration</h4>
+                <p>Seamlessly connect your systems to the cloud to ensure data accessibility and real-time insights.</p>
               </div>
-            </div><!-- End Features Item-->
+            </div>
 
-            <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-broadcast flex-shrink-0"></i>
-              <div>
-                <h4>Aut occaecati</h4>
-                <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+            <!-- Feature 3 -->
+            <div class="features-item d-flex mt-4 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-gear-wide-connected flex-shrink-0 text-primary"></i>
+              <div class="ps-3">
+                <h4>Automated Workflows</h4>
+                <p>Reduce manual tasks and errors by implementing smart automation across your operations.</p>
               </div>
-            </div><!-- End Features Item-->
+            </div>
 
-            <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="500">
-              <i class="bi bi-camera-reels flex-shrink-0"></i>
-              <div>
-                <h4>Beatae veritatis</h4>
-                <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+            <!-- Feature 4 -->
+            <div class="features-item d-flex mt-4 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="500">
+              <i class="bi bi-bar-chart-line flex-shrink-0 text-primary"></i>
+              <div class="ps-3">
+                <h4>Data-Driven Decisions</h4>
+                <p>Transform your business with analytics that provide actionable insights for better decision-making.</p>
               </div>
-            </div><!-- End Features Item-->
+            </div>
 
           </div>
+
         </div>
 
       </div>
 
-    </section><!-- /Features Section -->
+    </section>
+    <!-- End Features Section -->
+
 
     <!-- Services Section -->
     <section id="services" class="services section">
-
-      <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Services</h2>
-        <p>Check our Services</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-activity"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Nesciunt Mete</h3>
-              </a>
-              <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-broadcast"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Eosle Commodi</h3>
-              </a>
-              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-easel"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Ledo Markt</h3>
-              </a>
-              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-bounding-box-circles"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Asperiores Commodit</h3>
-              </a>
-              <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
-              <a href="service-details.html" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-calendar4-week"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Velit Doloremque</h3>
-              </a>
-              <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
-              <a href="service-details.html" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
-            <div class="service-item position-relative">
-              <div class="icon">
-                <i class="bi bi-chat-square-text"></i>
-              </div>
-              <a href="service-details.html" class="stretched-link">
-                <h3>Dolori Architecto</h3>
-              </a>
-              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
-              <a href="service-details.html" class="stretched-link"></a>
-            </div>
-          </div><!-- End Service Item -->
-
-        </div>
-
+        <h2>Our Solutions</h2>
+        <p>Comprehensive modules designed to address real business challenges</p>
       </div>
 
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-receipt"></i></div>
+              <h3>Invoice & Quotation Management</h3>
+              <p>Automate customer invoices, supplier bills, quotations, and purchase orders seamlessly.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-people"></i></div>
+              <h3>Employee & Payroll</h3>
+              <p>Automated attendance, payroll, and salary tracking to ensure accurate and timely compensation.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-truck"></i></div>
+              <h3>Logistics & Delivery</h3>
+              <p>Track shipments, manage deliveries, and optimize your supply chain with real-time monitoring.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-building"></i></div>
+              <h3>Institution & Catering Management</h3>
+              <p>Tailored platforms for tuition centers, schools, and catering businesses to handle daily workflows.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-robot"></i></div>
+              <h3>AI Integrations</h3>
+              <p>Bring intelligence into your business process with AI-based insights and automation.</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-table"></i></div>
+              <h3>Excel to Web Interfaces</h3>
+              <p>Transform manual spreadsheets into secure, dynamic, web-based applications.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </section><!-- /Services Section -->
 
     <!-- Call To Action Section -->
     <section id="call-to-action" class="call-to-action section dark-background">
-
       <img src="assets/img/cta-bg.jpg" alt="">
-
       <div class="container">
         <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
           <div class="col-xl-10">
             <div class="text-center">
-              <h3>Call To Action</h3>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-              <a class="cta-btn" href="#">Call To Action</a>
+              <h3>Let’s Build Your Digital Future</h3>
+              <p>Partner with Phoenix Tech Solutions to simplify your operations and unlock business growth with next-gen industrial solutions.</p>
+              <a class="cta-btn" href="#contact">Get in Touch</a>
             </div>
           </div>
         </div>
       </div>
-
     </section><!-- /Call To Action Section -->
 
     <!-- Portfolio Section -->
@@ -506,6 +462,90 @@
 
     </section><!-- /Portfolio Section -->
 
+    <!-- Technology Stack Section -->
+    <section id="technologies" class="technologies section">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Technology Stack</h2>
+          <p>Our expertise in modern tools and technologies for digital transformation</p>
+        </div>
+
+        <div class="row gy-4 justify-content-center">
+
+          <!-- Frontend -->
+          <div class="col-lg-2 col-md-3 col-4 text-center tech-item frontend">
+            <i class="fab fa-html5 fa-3x"></i>
+            <p>HTML5</p>
+          </div>
+          <div class="col-lg-2 col-md-3 col-4 text-center tech-item frontend">
+            <i class="fab fa-css3-alt fa-3x"></i>
+            <p>CSS3</p>
+          </div>
+          <div class="col-lg-2 col-md-3 col-4 text-center tech-item frontend">
+            <i class="fab fa-js-square fa-3x"></i>
+            <p>JavaScript</p>
+          </div>
+
+          <!-- Backend -->
+          <div class="col-lg-2 col-md-3 col-4 text-center tech-item backend">
+            <i class="fab fa-python fa-3x"></i>
+            <p>Python / Django</p>
+          </div>
+
+          <!-- Databases -->
+          <div class="col-lg-2 col-md-3 col-4 text-center tech-item database">
+            <i class="fas fa-database fa-3x"></i>
+            <p>PostgreSQL</p>
+          </div>
+          <div class="col-lg-2 col-md-3 col-4 text-center tech-item database">
+            <i class="fas fa-database fa-3x"></i>
+            <p>MySQL</p>
+          </div>
+
+          <!-- Cloud -->
+          <div class="col-lg-2 col-md-3 col-4 text-center tech-item cloud">
+            <i class="fab fa-microsoft fa-3x"></i>
+            <p>Azure</p>
+          </div>
+
+          <!-- Automation -->
+          <div class="col-lg-2 col-md-3 col-4 text-center tech-item automation">
+            <i class="fas fa-robot fa-3x"></i>
+            <p>n8n Automation</p>
+          </div>
+
+          <!-- AI / ML -->
+          <div class="col-lg-2 col-md-3 col-4 text-center tech-item ai">
+            <i class="fas fa-brain fa-3x"></i>
+            <p>AI / ML</p>
+          </div>
+          <div class="col-lg-2 col-md-3 col-4 text-center tech-item ai">
+            <i class="fas fa-cogs fa-3x"></i>
+            <p>TensorFlow / PyTorch</p>
+          </div>
+
+          <!-- Mobile / Frameworks -->
+          <div class="col-lg-2 col-md-3 col-4 text-center tech-item mobile">
+            <i class="fab fa-android fa-3x"></i>
+            <p>Python Mobile Apps</p>
+          </div>
+
+          <!-- DevOps -->
+          <div class="col-lg-2 col-md-3 col-4 text-center tech-item devops">
+            <i class="fab fa-docker fa-3x"></i>
+            <p>Docker</p>
+          </div>
+          <div class="col-lg-2 col-md-3 col-4 text-center tech-item devops">
+            <i class="fas fa-network-wired fa-3x"></i>
+            <p>Workflow Automation</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
     <!-- Stats Section -->
     <section id="stats" class="stats section">
 
@@ -514,14 +554,14 @@
         <div class="row gy-4 align-items-center justify-content-between">
 
           <div class="col-lg-5">
-            <img src="assets/img/stats-img.jpg" alt="" class="img-fluid">
+            <img src="assets/img/stats-img.jpg" alt="Startup Team" class="img-fluid">
           </div>
 
           <div class="col-lg-6">
 
-            <h3 class="fw-bold fs-2 mb-3">Voluptatem dignissimos provident quasi</h3>
+            <h3 class="fw-bold fs-2 mb-3">Our Journey So Far</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+              We are a dedicated startup focused on delivering innovative digital solutions to streamline business processes.
             </p>
 
             <div class="row gy-4">
@@ -530,8 +570,8 @@
                 <div class="stats-item d-flex">
                   <i class="bi bi-emoji-smile flex-shrink-0"></i>
                   <div>
-                    <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Happy Clients</strong> <span>consequuntur quae</span></p>
+                    <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Happy Clients</strong> <span>across industries</span></p>
                   </div>
                 </div>
               </div><!-- End Stats Item -->
@@ -540,18 +580,18 @@
                 <div class="stats-item d-flex">
                   <i class="bi bi-journal-richtext flex-shrink-0"></i>
                   <div>
-                    <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Projects</strong> <span>adipisci atque cum quia aut</span></p>
+                    <span data-purecounter-start="0" data-purecounter-end="4" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Projects Completed</strong> <span>successfully delivered</span></p>
                   </div>
                 </div>
               </div><!-- End Stats Item -->
 
               <div class="col-lg-6">
                 <div class="stats-item d-flex">
-                  <i class="bi bi-headset flex-shrink-0"></i>
+                  <i class="bi bi-lightning-charge flex-shrink-0"></i>
                   <div>
-                    <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Hours Of Support</strong> <span>aut commodi quaerat</span></p>
+                    <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Automation Modules</strong> <span>streamlining business processes</span></p>
                   </div>
                 </div>
               </div><!-- End Stats Item -->
@@ -560,8 +600,8 @@
                 <div class="stats-item d-flex">
                   <i class="bi bi-people flex-shrink-0"></i>
                   <div>
-                    <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
-                    <p><strong>Hard Workers</strong> <span>rerum asperiores dolor</span></p>
+                    <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" class="purecounter"></span>
+                    <p><strong>Team Members</strong> <span>dedicated professionals</span></p>
                   </div>
                 </div>
               </div><!-- End Stats Item -->
@@ -576,209 +616,6 @@
 
     </section><!-- /Stats Section -->
 
-    <!-- Testimonials Section -->
-    <section id="testimonials" class="testimonials section dark-background">
-
-      <img src="assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="swiper init-swiper">
-          <script type="application/json" class="swiper-config">
-            {
-              "loop": true,
-              "speed": 600,
-              "autoplay": {
-                "delay": 5000
-              },
-              "slidesPerView": "auto",
-              "pagination": {
-                "el": ".swiper-pagination",
-                "type": "bullets",
-                "clickable": true
-              }
-            }
-          </script>
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-                <div class="stars">
-                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                </div>
-                <p>
-                  <i class="bi bi-quote quote-icon-left"></i>
-                  <span>Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.</span>
-                  <i class="bi bi-quote quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-
-    </section><!-- /Testimonials Section -->
-
-    <!-- Team Section -->
-    <section id="team" class="team section">
-
-      <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Team</h2>
-        <p>our Team</p>
-      </div><!-- End Section Title -->
-
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href="#"><i class="bi bi-twitter-x"></i></a>
-                  <a href="#"><i class="bi bi-facebook"></i></a>
-                  <a href="#"><i class="bi bi-instagram"></i></a>
-                  <a href="#"><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href="#"><i class="bi bi-twitter-x"></i></a>
-                  <a href="#"><i class="bi bi-facebook"></i></a>
-                  <a href="#"><i class="bi bi-instagram"></i></a>
-                  <a href="#"><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href="#"><i class="bi bi-twitter-x"></i></a>
-                  <a href="#"><i class="bi bi-facebook"></i></a>
-                  <a href="#"><i class="bi bi-instagram"></i></a>
-                  <a href="#"><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href="#"><i class="bi bi-twitter-x"></i></a>
-                  <a href="#"><i class="bi bi-facebook"></i></a>
-                  <a href="#"><i class="bi bi-instagram"></i></a>
-                  <a href="#"><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Accountant</span>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-        </div>
-
-      </div>
-
-    </section><!-- /Team Section -->
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">
@@ -791,70 +628,67 @@
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="mb-4" data-aos="fade-up" data-aos-delay="200">
+        <!--<div class="mb-4" data-aos="fade-up" data-aos-delay="200">
           <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1sen!2sus!4v1676961268712!5m2!1sen!2sus" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div><!-- End Google Maps -->
+        </div> End Google Maps -->
 
         <div class="row gy-4">
 
           <div class="col-lg-4">
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="info-item d-flex align-items-start" data-aos="fade-up" data-aos-delay="300">
               <i class="bi bi-geo-alt flex-shrink-0"></i>
               <div>
                 <h3>Address</h3>
-                <p>A108 Adam Street, New York, NY 535022</p>
+                <p>1/126, Phase - 2, Manali New Town, Chennai - 600103</p>
               </div>
             </div><!-- End Info Item -->
 
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="info-item d-flex align-items-start" data-aos="fade-up" data-aos-delay="400">
               <i class="bi bi-telephone flex-shrink-0"></i>
               <div>
                 <h3>Call Us</h3>
-                <p>+1 5589 55488 55</p>
+                <p>+91 82482 33162</p>
               </div>
             </div><!-- End Info Item -->
 
-            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
+            <div class="info-item d-flex align-items-start" data-aos="fade-up" data-aos-delay="500">
               <i class="bi bi-envelope flex-shrink-0"></i>
               <div>
                 <h3>Email Us</h3>
-                <p>info@example.com</p>
+                <p>info@phoenixcorps.in</p>
               </div>
             </div><!-- End Info Item -->
 
           </div>
 
           <div class="col-lg-8">
-            <form action="https://themewagon.github.io/gp/forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+            <form id="contact-form" action="https://formspree.io/f/mrbyenzp" method="POST" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
               <div class="row gy-4">
 
                 <div class="col-md-6">
-                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required>
                 </div>
 
-                <div class="col-md-6 ">
-                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
-                </div>
-
-                <div class="col-md-12">
-                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                <div class="col-md-6">
+                  <input type="email" name="email" class="form-control" placeholder="Your Email" required>
                 </div>
 
                 <div class="col-md-12">
-                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                  <input type="text" name="subject" class="form-control" placeholder="Subject" required>
+                </div>
+
+                <div class="col-md-12">
+                  <textarea name="message" class="form-control" rows="6" placeholder="Message" required></textarea>
                 </div>
 
                 <div class="col-md-12 text-center">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
-
                   <button type="submit">Send Message</button>
                 </div>
 
               </div>
             </form>
-          </div><!-- End Contact Form -->
+          </div>
+          <!-- End Contact Form -->
 
         </div>
 
@@ -871,13 +705,13 @@
         <div class="row gy-4">
           <div class="col-lg-4 col-md-6 footer-about">
             <a href="index.html" class="logo d-flex align-items-center">
-              <span class="sitename">GP</span>
+              <span class="sitename">PHOENIX TECH SOLUTIONS</span>
             </a>
             <div class="footer-contact pt-3">
-              <p>A108 Adam Street</p>
-              <p>New York, NY 535022</p>
-              <p class="mt-3"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p>
-              <p><strong>Email:</strong> <span>info@example.com</span></p>
+              <p>1/126, Phase - 2, Manali New Town</p>
+              <p>Tamil Nadu, Chennai - 600103</p>
+              <p class="mt-3"><strong>Phone:</strong> <span>+91 82482 33162</span></p>
+              <p><strong>Email:</strong> <span>info@phoenixcorps.in</span></p>
             </div>
             <div class="social-links d-flex mt-4">
               <a href="#"><i class="bi bi-twitter-x"></i></a>
@@ -891,32 +725,32 @@
             <h4>Useful Links</h4>
             <ul>
               <li><i class="bi bi-chevron-right"></i> <a href="#"> Home</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> About Us</a></li>
               <li><i class="bi bi-chevron-right"></i> <a href="#"> Services</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> Terms of service</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> Privacy policy</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Case Studies</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Contact</a></li>
             </ul>
           </div>
 
           <div class="col-lg-2 col-md-3 footer-links">
-            <h4>Our Services</h4>
+            <h4>Our Solutions</h4>
             <ul>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> Web Design</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> Web Development</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> Product Management</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> Marketing</a></li>
-              <li><i class="bi bi-chevron-right"></i> <a href="#"> Graphic Design</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> AI & Automation</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Industrial Process Digitization</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Supply Chain Optimization</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Cloud & Data Platforms</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Custom Software Development</a></li>
             </ul>
           </div>
 
           <div class="col-lg-4 col-md-12 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Subscribe to our newsletter and receive the latest news about our products and services!</p>
-            <form action="https://themewagon.github.io/gp/forms/newsletter.php" method="post" class="php-email-form">
-              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Subscribe"></div>
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your subscription request has been sent. Thank you!</div>
+            <h4>Stay Updated</h4>
+            <p>Subscribe to receive insights on AI, automation, and digital transformation for industrial businesses.</p>
+            <form action="https://formspree.io/f/mrbyenzp" method="post" class="php-email-form">
+              <div class="newsletter-form">
+                <input type="email" name="email" placeholder="Enter your email" required>
+                <input type="submit" value="Subscribe">
+              </div>
             </form>
           </div>
 
@@ -926,13 +760,9 @@
 
     <div class="copyright">
       <div class="container text-center">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">GP</strong> <span>All Rights Reserved</span></p>
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">PHOENIX TECH SOLUTIONS</strong> <span>All Rights Reserved</span></p>
         <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you've purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href="https://themewagon.com/">ThemeWagon</a>
+          Designed & Developed by <a href="https://phoenixtechsolutions.phoenixcorps.in" target="_blank">Phoenix Tech Solutions</a>  
         </div>
       </div>
     </div>
@@ -957,9 +787,29 @@
 
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
+<script>
+	const form = document.getElementById('contact-form');
+form.addEventListener('submit', e => {
+  e.preventDefault();
+  const formData = new FormData(form);
+  const xhr = new XMLHttpRequest();
+  xhr.open('POST', form.action);
+  xhr.setRequestHeader('Accept', 'application/json');
+  xhr.onreadystatechange = function() {
+    if (xhr.readyState !== XMLHttpRequest.DONE) return;
+    if (xhr.status === 200) {
+      form.reset();
+      alert('Thank you for your message!');
+    } else {
+      alert('Oops! Something went wrong.');
+    }
+  };
+  xhr.send(formData);
+});
+
+</script>
+
 
 </body>
 
-
-<!-- Mirrored from themewagon.github.io/gp/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Sep 2025 20:14:29 GMT -->
 </html>
