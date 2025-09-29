@@ -10,8 +10,8 @@
   <meta name="keywords" content="">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/img/favicon.avif" rel="icon">
+  <link href="assets/img/favicon.avif" rel="apple-touch-icon">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/" rel="preconnect">
@@ -112,6 +112,42 @@
   }
 </style>
 
+<style>
+  .vision-box {
+  background: linear-gradient(135deg, #f8f9fa 0%, #ffffff 100%);
+}
+
+.vision-content {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+}
+
+.vision-content h2 {
+  font-weight: 600;
+  color: #212529;
+}
+
+.vision-content p {
+  color: #495057;
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.icon-circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: #0d6efd; /* Bootstrap primary */
+  color: #fff;
+  font-size: 2rem; 
+}
+</style>
+
 <body class="index-page">
 
   <header id="header" class="header d-flex align-items-center fixed-top">
@@ -178,30 +214,93 @@
     </section><!-- /Hero Section -->
 
     <!-- About Section -->
-    <section id="about" class="about section">
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-        <div class="row gy-4">
-          <div class="col-lg-6 order-1 order-lg-2">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-6 order-2 order-lg-1 content">
-            <h3>Who We Are</h3>
-            <p class="fst-italic">
-              Phoenix Tech Solutions is a digital transformation company delivering scalable, customized solutions for core industrial and business processes.
-            </p>
-            <ul>
-              <li><i class="bi bi-check2-all"></i> <span>End-to-end automation for logistics, supply chain, and manufacturing sectors.</span></li>
-              <li><i class="bi bi-check2-all"></i> <span>Modern ERP-style modules for invoicing, payroll, employee and customer management.</span></li>
-              <li><i class="bi bi-check2-all"></i> <span>AI-powered integrations and Excel-to-website interfaces to connect legacy systems with modern platforms.</span></li>
-            </ul>
+<section id="about" class="about section">
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row gy-4">
+      
+      <!-- Image Side -->
+      <div class="col-lg-6 order-1 order-lg-2">
+        <img src="assets/img/wwr_4.png" class="img-fluid rounded shadow-lg" alt="About Phoenix Tech Solutions">
+      </div>
+      
+      <!-- Content Side -->
+      <div class="col-lg-6 order-2 order-lg-1 content">
+        <h3>Who We Are</h3>
+        <p class="fst-italic">
+          Phoenix Tech Solutions is a digital transformation startup committed to reshaping the way industries operate. 
+          We specialize in creating <strong>automation-first, AI-powered business solutions</strong> that simplify processes, 
+          enhance productivity, and accelerate growth for our clients.
+        </p>
+
+        <ul>
+          <li><i class="bi bi-check2-all"></i> <span>End-to-end automation for logistics, supply chain, manufacturing, and catering industries.</span></li>
+          <li><i class="bi bi-check2-all"></i> <span>Modern ERP-style modules covering invoicing, payroll, expense booking, HR, and customer management.</span></li>
+          <li><i class="bi bi-check2-all"></i> <span>AI integrations, Excel-to-website converters, and smart dashboards for legacy-to-modern migration.</span></li>
+          <li><i class="bi bi-check2-all"></i> <span>Institution and tuition management platforms with seamless tracking of attendance, payroll, and results.</span></li>
+          <li><i class="bi bi-check2-all"></i> <span>Dynamic web solutions – from customer enquiry websites to enterprise-grade delivery & order tracking portals.</span></li>
+        </ul>
+
+        <!-- <p>
+          Our mission is simple: <strong>to make complex business operations effortless</strong>.  
+          By leveraging cutting-edge technologies, we ensure industries can <strong>reduce operational costs, improve workflow efficiency, 
+          and stay ahead of evolving market needs</strong>.
+        </p> -->
+
+         <!-- <section class="vision-box bg-light mt-5 py-4">
+          <div class="container-fluid">
+            <h5><i class="bi bi-bullseye"></i> Our Vision</h5>
             <p>
-              Our mission is to simplify industrial workflows, reduce operational costs, and empower businesses with the right digital tools to stay competitive in the modern economy.
+              To be the go-to digital transformation partner for industries worldwide, 
+              delivering solutions that not only solve today’s problems but also anticipate tomorrow’s challenges.
             </p>
           </div>
+        </section> -->
+
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Vision & Mission Section -->
+<section class="vision-mission py-5">
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+    <div class="row g-4">
+      
+      <!-- Vision -->
+      <div class="col-lg-6">
+        <div class="vision-content p-4 rounded shadow-sm text-center h-100">
+          <div class="icon-circle mb-3">
+            <i class="bi bi-bullseye"></i>
+          </div>
+          <h2 class="mb-3">Our Vision</h2>
+          <p class="lead">
+            To be the go-to digital transformation partner for industries worldwide, 
+            delivering solutions that not only solve today’s problems but also 
+            anticipate tomorrow’s challenges.
+          </p>
         </div>
       </div>
-    </section>
-    <!-- /About Section -->
+
+      <!-- Mission -->
+      <div class="col-lg-6">
+        <div class="mission-content p-4 rounded shadow-sm text-center h-100">
+          <div class="icon-circle mb-3">
+            <i class="bi bi-rocket-takeoff"></i>
+          </div>
+          <h2 class="mb-3">Our Mission</h2>
+          <p class="lead">
+            To simplify industrial workflows, reduce operational costs, and empower 
+            businesses with innovative digital tools that ensure growth, agility, 
+            and long-term competitiveness in the modern economy.
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- /About Section -->
+
 
 
     <!-- Features Section -->
@@ -219,7 +318,7 @@
           
           <!-- Image -->
           <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <img src="assets/img/features-bg.jpg" class="img-fluid rounded" alt="Features Illustration">
+            <img src="assets/img/features-bg-4.jpg" class="img-fluid rounded" alt="Features Illustration">
           </div>
 
           <!-- Features List -->
@@ -328,7 +427,7 @@
 
     <!-- Call To Action Section -->
     <section id="call-to-action" class="call-to-action section dark-background">
-      <img src="assets/img/cta-bg.jpg" alt="">
+      <img src="assets/img/background_img_1.jpg" alt="">
       <div class="container">
         <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
           <div class="col-xl-10">
@@ -554,7 +653,7 @@
         <div class="row gy-4 align-items-center justify-content-between">
 
           <div class="col-lg-5">
-            <img src="assets/img/stats-img.jpg" alt="Startup Team" class="img-fluid">
+            <img src="assets/img/our_journey_so_far_2.png" alt="Startup Team" class="img-fluid">
           </div>
 
           <div class="col-lg-6">
